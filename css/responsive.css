@@ -1,0 +1,228 @@
+/* ---------for xtra small devices----------- */
+@media screen and (max-width:575px) {
+    /* ==================
+     benner part start
+     ====================== */
+     .main-benner {
+         flex-direction: column;
+         margin:0 20px;
+     }
+     .benner-text {
+         width: 100%;
+         padding-top: 60px;
+         text-align: center;
+     }
+     .benner-text h1 {
+         font-size: 2.5em;
+         line-height: 40px;
+     }
+     .benner-image {
+         width: 100%;
+         margin-top: 100px;
+     } 
+  
+    /* ==================
+     benner part end
+     ====================== */
+
+
+    /* ==================
+     blog part end
+     ====================== */
+     #blog{
+        margin-top:-40px;
+    }
+     .main-blog {
+        flex-direction: column;
+    }
+    .aside-menu {
+        width: 92%;
+        margin: 0 auto;
+        background: transparent;
+        border: none;
+        height: 280px;
+    }
+    .blog-part-main {
+        width: 90%;
+        grid-template-columns: repeat(1 , 1fr);
+        margin: 0 auto;
+    }
+    .blog-item{
+        margin:0 auto;
+    }
+    /* ==================
+     blog part end
+     ====================== */
+
+      /* ==============================
+         footer part start
+    ======================== */
+    .footer-section {
+        background: rgba(0, 0, 0, 0.902);
+        padding: 0px 0;
+    }
+    .footer-bottom-list {
+        flex-direction: column;
+        align-items: center;
+        gap: 18px;
+    }
+    }
+
+
+    /* --------for small device---------- */
+
+    
+@media screen and (min-width:576px) and (max-width:767px) {
+    /* ==================
+   benner part start
+   ====================== */
+   .main-benner {
+       flex-direction: column;
+       margin:0 20px;
+   }
+   .benner-text {
+       width: 100%;
+       padding-top: 60px;
+       text-align: center;
+   }
+   .benner-text h1 {
+       font-size: 2.5em;
+       line-height: 40px;
+   }
+   .benner-image {
+       width: 100%;
+       margin-top: 100px;
+   } 
+/* ========================
+        benner part end
+    ======================= */
+   
+    /* ==================
+        blog part end
+     ====================== */
+     #blog{
+        margin-top:-40px;
+    }
+     .main-blog {
+        flex-direction: column;
+    }
+    .aside-menu {
+        width: 80%;
+        margin: 0 auto;
+        background: transparent;
+        border: none;
+        height: 280px;
+    }
+    .blog-part-main {
+        width: 98%;
+        grid-template-columns: repeat(1 , 1fr);
+        margin: 0 auto;
+    }
+    .blog-item{
+        margin:0 auto;
+    }
+    /* ==================
+        blog part end
+     ====================== */
+
+     /* ==============================
+         footer part start
+    ======================== */
+    .footer-section {
+        background: rgba(0, 0, 0, 0.902);
+        padding: 0px 0;
+    }
+    .footer-bottom-list {
+        flex-direction: column;
+        align-items: center;
+        gap: 18px;
+    }
+    /* ========================
+        footer part end
+    ====================== */
+}
+
+
+/* --------for tablet device------------- */
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    /* =====================
+         benner part start
+         ======================== */
+         .main-benner {
+            margin:0 20px;
+        }
+         .benner-text {
+             width: 40%;
+             padding-top: 10px;
+         }
+         .benner-text h1 {
+             font-size: 3.5em;
+             line-height: 60px;
+         }
+         .benner-text P {
+             font-size: 1em; 
+             line-height: 25px;
+             white-space: nowrap;
+             text-overflow: ellipsis;
+             overflow: hidden;
+         }
+         .benner-text{
+             margin-top:10px;
+         }
+    /* =====================
+         benner part end
+         ======================== */
+
+    /* ======================
+             blog part start
+     ====================== */
+     .main-blog {
+        flex-direction: column;
+    }
+
+    .aside-menu {
+        width: 95%;
+        height: 209px;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        background-color: transparent;
+        border:none;
+    }
+    .aside-menu a {
+        padding: 15px 57px;
+       
+    }
+    .blog-part-main {
+        width: 95%;
+        grid-template-columns: repeat(2 , 1fr);
+        gap: 21px;
+        margin: 0 auto;
+    }
+
+    .view-all-item {
+      
+        display: block;
+    }
+
+     /* ======================
+             blog part end
+     ====================== */
+
+     /* =====================
+           footer part  start
+        ======================== */
+        .footer-bottom-list {   
+            flex-wrap: wrap;
+            max-width: 772px;
+            column-gap: 60px;
+            margin-left: 30px;
+            row-gap: 30px;
+            justify-content: center;
+        }
+
+        /* =====================
+           footer part  end
+        ======================== */
+        }

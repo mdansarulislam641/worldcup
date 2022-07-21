@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+/* ==========================
+        all common css
+    ====================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+img{
+    vertical-align: middle;
+}
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+/* ==========================
+        all common css end
+    ====================== */
+
+/* ==========================
+        benner part start
+    ====================== */
+    section.benner {
+        margin-top: 60px;
+    }
+    .main-benner {
+        display: flex;
+        justify-content: space-between;
+        background: rgba(0, 0, 0, 0.913);
+        padding: 50px 5% 0px;
+        border-radius: 30px;
+    }
+
+.benner-text {
+    width: 40%;
+    padding-top: 100px;
+}
+
+.benner-text h1 {
+    font-size: 4.5em;
+    color: #fff;
+    font-weight: 700;
+    line-height: 80px;
+    text-transform: capitalize;
+}
+
+.benner-text P {
+    font-size: 1em;
+    color: #fff;
+    font-weight: 400;
+    line-height: 25px;
+    margin: 10px 0;
+    margin-bottom: 40px;
+}
+.benner-text a {
+    font-size: 1em;
+    color: #fff;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 15px 40px;
+    background: tomato;
+}
+
+.benner-image {
+    width: 55%;
+}
+
+.benner-image img {
+    width: 100%;
+}
+
+/* ==========================
+        benner part end
+    ====================== */
+
+
+/* ==========================
+        blog part start
+    ====================== */
+    #blog{
+        margin-top:100px;
+    }
+    .main-blog{
+        display: flex;
+        gap:30px;
+    }
+    .aside-menu {
+        border: 1px solid black;
+        width: 25%;
+        text-align: center;
+        background: #000;
+        border-radius: 20px;
+        padding: 60px 4px;
+        height: 358px;
+    }
+    .aside-menu a {
+        font-size: 18px;
+        color: #000;
+        padding: 15px 20px;
+        border: 1px solid #000;
+        border-radius: 15px;
+        display: block;
+        margin: 20px;
+        background:#fff;
+    }
+    .aside-menu .active-item-color{
+        background-color: orangered;
+    }
+    .blog-part-main{
+        width:75%;
+        display: grid;
+        grid-template-columns: repeat(3 , 1fr);
+        gap:30px;
+    }
+    .blog-item{
+        border:1px solid black;
+        border-radius: 15px;
+    }
+    .blog-text{
+        padding:0 10px;
+    }
+    .image img{
+        width:100%;
+    }
+    .blog-buttons{
+        margin:20px 0;
+    }
+    .blog-button{
+        padding: 6px 30px;
+        background: transparent;
+        border: 1px solid black;
+        border-radius: 5px;
+        text-transform: capitalize;
+        font-size: 20px;
+        cursor:pointer;
+    }
+    .blog-title h2{
+        font-size: 16px;
+        color: #000;
+        font-weight: 400;
+        line-height: 20px;
+        margin: 20px 0px;
+    }
+    .player-rating{
+        display: flex;
+        justify-content: space-between;
+        padding-bottom:20px;
+    }
+   
+    .player-rating-details {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+    .view-all-item {
+        text-align: center;
+        margin-top: 50px;
+        display: none;
+    }
+    button.view-all-item-title {
+        padding: 10px 45px;
+        background: tomato;
+        border-radius: 8px;
+        color: #fff;
+        font-size: 22px;
+        border: none;
+    }
+
+
+
+/* ===================================
+        second page blog css start
+    ====================================     */
+    .blog-part-main{
+        width:75%;
+        display: grid;
+        grid-template-columns: repeat(3 , 1fr);
+        gap:30px;
+    }
+    .blog-item{
+        border:1px solid black;
+        border-radius: 15px;
+        padding:30px 20px;
+    }
+    .flag-item{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .germany-flag img{
+        width:100%;
+    }
+    .france-flag img{
+        width:100%;
+    }
+    .flag-opposition{
+        font-size:22px;
+        color:#000;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+    .flag-name-title{
+        text-align: center;
+    }
+    .flag-tile {
+        font-size: 22px;
+        color: #000;
+        font-weight: 600;
+        text-transform: capitalize;
+        margin-top: 20px;
+    }
+    .flag-title-bottom{
+        font-size:18px;
+        font-weight: 400;
+        color:#000;
+    }
+    .aside-menu .active-item-color{
+        background-color: orangered;
+    }
+/* ===================================
+        second page blog css end
+    ====================================     */
+
+/* ==========================
+        blog part end
+    ====================== */
+
+    /* ==========================
+        foooter part part end
+    ====================== */
+    .footer-section{
+        background:rgba(0, 0, 0, 0.902);
+        padding:100px 0;
+        margin-top:100px;
+    }
+    .goal-title {
+        font-size: 50px;
+        font-weight: 700;
+        text-transform: capitalize;
+        text-align: center;
+        color: #f1f1f1;
+    }
+    .footer-middle-line {
+        border: 1px solid rgb(198, 198, 192);
+        margin: 50px 0;
+    }
+    .footer-bottom-list{
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer-link a{
+        color:#f1f1f1;
+        font-size:22px;
+        text-transform: capitalize;
+
+    }
+    .footer-social-link {
+        text-align: center;
+        font-size: 36px;
+        color: #fff;
+        margin-top: 40px;
+    }
+    .fa-brands{
+        margin-right:15px;
+    }
+/* ==========================
+        foooter part part end
+    ====================== */
